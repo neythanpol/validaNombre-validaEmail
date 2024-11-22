@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    color: #333;
+}
+
+header {
+    background-color: #9c3c04;
+    color: white;
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    border: #663100 solid 2px;
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    background: rgba(250, 163, 92, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+table th {
+    background-color: #663100;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+table tr {
+    color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+
+.nombre-apellido {
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre-form {
+    width: 30%;
+}
+
+.apellido-form {
+    width: 65%;
+    margin-left: auto;
+}
+
+.edad-sueldo-dni {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+.edad-form {
+    width: 30%;
+}
+
+.sueldo-form {
+    width: 30%;
+    margin-left: auto;
+}
+
+.dni-form {
+    width: 30%;
+    margin-left: auto;
+}
